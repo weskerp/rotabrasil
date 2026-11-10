@@ -1,0 +1,5 @@
+import { Compass, Instagram, Mail } from 'lucide-react'
+
+export default function Footer() {
+  return <footer className="footer"><div className="footer-main"><a className="brand footer-brand" href="#inicio"><span className="brand-icon"><Compass size={20}/></span><span>rota<span className="brand-accent">brasil</span></span></a><p>Inspiração para descobrir novos caminhos e viver histórias pelo Brasil.</p><div className="socials"><a href="#inicio" aria-label="Instagram demonstrativo"><Instagram size={18}/></a><a href="mailto:contato@exemplo.com" aria-label="E-mail demonstrativo"><Mail size={18}/></a></div></div><div className="footer-bottom"><span>© 2026 Rota Brasil. Projeto demonstrativo de portfólio.</span><a href="#inicio">Voltar ao topo ↑</a></div><p className="demo-notice">Marca, conteúdo, preço, imagens e contatos fictícios para fins de demonstração.</p></footer>
+}
